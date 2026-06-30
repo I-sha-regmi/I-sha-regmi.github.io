@@ -71,7 +71,7 @@ export default function Home() {
               description="A simple shell written in C. Based on Stephen Brennan's blog post."
               tags={["C"]}
               color="cyan"
-              href="#"
+              href="/project-one"
             />
             {/* Project 2 */}
             <ProjectCard 
