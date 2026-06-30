@@ -37,14 +37,10 @@ export default function Home() {
               <span className="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,1)]" />
               READY TO LAUNCH
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-              BUILD YOUR <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">DEVELOPER PORTFOLIO</span> <br />
-              IN MINUTES
-            </h1>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">SOFTWARE DEVELOPER</span> <br />
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            A beginner-friendly portfolio template that showcases your projects beautifully. Fork it, customize it, deploy it—no design skills required.
+            Check out the projects I have worked on below!
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
@@ -52,7 +48,7 @@ export default function Home() {
               className="group relative px-8 py-3 bg-cyan-950/30 border border-cyan-500/50 text-cyan-300 font-bold tracking-widest uppercase text-sm overflow-hidden hover:bg-cyan-900/50 transition-all hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
-                GET STARTED <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                PROJECTS <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
             </Link>
@@ -63,17 +59,17 @@ export default function Home() {
         <section id="work" className="py-20 space-y-12">
           <div className="flex items-end justify-between border-b border-cyan-900/30 pb-4">
             <h2 className="text-2xl font-bold tracking-widest text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
-              // YOUR_PROJECTS
+              // PROJECTS
             </h2>
-            <span className="text-xs font-mono text-cyan-700">Showcase what you&apos;ve built with style</span>
+            <span className="text-xs font-mono text-cyan-700">Welcome!</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["REACT", "NEXTJS", "TAILWIND"]}
+              title="Write a shell in C"
+              description="A simple shell written in C. Based on Stephen Brennan's blog post."
+              tags={["C"]}
               color="cyan"
               href="#"
             />
